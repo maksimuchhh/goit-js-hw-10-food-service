@@ -65,6 +65,7 @@ module.exports = env => ({
         test: /\.hbs$/,
         use: 'handlebars-loader',
       },
+      { test: /\.handlebars$/, loader: "handlebars-loader" },
     ],
   },
   plugins: [

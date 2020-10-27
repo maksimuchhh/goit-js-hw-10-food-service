@@ -16,6 +16,7 @@ module.exports = env => ({
         test: /\.scss$/,
         use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
       },
+      { test: /\.handlebars$/, loader: "handlebars-loader" },
     ],
   },
   plugins: [

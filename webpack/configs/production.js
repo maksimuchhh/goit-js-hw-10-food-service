@@ -35,6 +35,7 @@ module.exports = env => ({
           'sass-loader',
         ],
       },
+      { test: /\.handlebars$/, loader: "handlebars-loader" },
     ],
   },
   plugins: [
